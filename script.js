@@ -53,7 +53,8 @@ function calculateGrade() {
         const average = total / numSubjects;
         resultText.textContent = `Average Grade: ${average.toFixed(2)}`;
     } else {
-        alert("(Please enter valid numbers for all subjects).");
+        alert("(Please enter valid numbers for all subjects)");
     }
 }
+
 
