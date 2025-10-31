@@ -6,7 +6,7 @@ function generateSubjectFields() {
     subjectsContainer.innerHTML = '';
     
     if (numSubjects <= 0 || isNaN(numSubjects)) {
-        alert("Please enter a valid number of subjects (Sariyana number kudunga).");
+        alert("Please enter a valid number of subjects");
         return;
     }
 
@@ -53,6 +53,7 @@ function calculateGrade() {
         const average = total / numSubjects;
         resultText.textContent = `Average Grade: ${average.toFixed(2)}`;
     } else {
-        alert("Sariyana values kudunga (Please enter valid numbers for all subjects).");
+        alert("(Please enter valid numbers for all subjects).");
     }
 }
+
