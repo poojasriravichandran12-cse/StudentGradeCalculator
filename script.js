@@ -15,7 +15,7 @@ function generateSubjectFields() {
         div.classList.add('input-group');
         
         const label = document.createElement('label');
-        label.textContent = `Subject ${i}):`;
+        label.textContent = `Subject ${i}:`;
 
         const input = document.createElement('input');
         input.type = 'number';
@@ -56,5 +56,6 @@ function calculateGrade() {
         alert("(Please enter valid numbers for all subjects)");
     }
 }
+
 
 
